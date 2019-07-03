@@ -1,0 +1,2 @@
+class GlxSubscription < ApplicationRecord
+end

@@ -1,0 +1,142 @@
+WARN  14:07:17,372 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  14:07:17,600 | james.mailprocessor | Matcher org.glx.matchers.GLXUnsubscribedEmails instantiated.
+INFO  14:07:17,638 | james.mailprocessor | Mailet Null instantiated.
+INFO  14:07:17,646 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:17,659 | james.mailprocessor | Mailet org.glx.mailets.GLXUnsubscribe instantiated.
+INFO  14:07:17,660 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:17,668 | james.mailprocessor | Mailet org.glx.mailets.GLXGatewayDispatcher instantiated.
+INFO  14:07:17,675 | james.mailprocessor | Matcher HasMailAttributeWithValue=currentGateway,1 instantiated.
+INFO  14:07:17,684 | james.mailprocessor | Mailet org.glx.mailets.GLXAmazonSESRelay instantiated.
+INFO  14:07:17,685 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:17,693 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  14:07:17,701 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  14:07:17,705 | james.mailprocessor | Mailet Null instantiated.
+INFO  14:07:17,714 | james.mailprocessor | Matcher HasMailAttribute=spamChecked instantiated.
+INFO  14:07:17,727 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  14:07:17,728 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:17,757 | james.mailprocessor | Mailet SetMailAttribute instantiated.
+INFO  14:07:17,769 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  14:07:17,773 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  14:07:17,774 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:17,775 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  14:07:18,586 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:18,640 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  14:07:18,732 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  14:07:18,750 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  14:07:18,757 | james.mailprocessor | Matcher HasMailAttribute=org.apache.james.SMIMECheckSignature instantiated.
+INFO  14:07:18,760 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  14:07:18,762 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:18,796 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  14:07:18,803 | james.mailprocessor | Matcher SenderIsLocal instantiated.
+INFO  14:07:19,002 | james.mailprocessor | Mailet ToSenderFolder instantiated.
+INFO  14:07:19,014 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  14:07:19,086 | james.mailprocessor | Mailet Sieve instantiated.
+INFO  14:07:19,093 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  14:07:19,101 | james.mailprocessor | Mailet AddDeliveredToHeader instantiated.
+INFO  14:07:19,102 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  14:07:19,120 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  14:07:19,131 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  14:07:19,132 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  14:07:19,195 | james.mailetcontext | Authorized addresses: [127.0.0.1/255.255.255.255]
+INFO  14:07:19,197 | james.mailprocessor | Matcher RemoteAddrNotInNetwork=127.0.0.1 instantiated.
+INFO  14:07:19,201 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  14:07:19,204 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:19,383 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  14:07:19,777 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:19,790 | james.mailprocessor | Mailet MetricsMailet instantiated.
+INFO  14:07:19,797 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:19,836 | james.mailprocessor | Mailet Bounce instantiated.
+INFO  14:07:19,837 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:19,868 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  14:07:20,002 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:20,020 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  14:07:20,079 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:20,084 | james.mailprocessor | Mailet SetMailAttribute instantiated.
+INFO  14:07:20,085 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  14:07:20,098 | james.mailprocessor | Mailet Bounce instantiated.
+INFO  14:07:20,099 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:20,100 | james.mailprocessor | Mailet Null instantiated.
+INFO  14:07:20,355 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:20,366 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  14:07:20,428 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:20,452 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  14:07:20,525 | james.mailprocessor | Matcher All instantiated.
+INFO  14:07:20,584 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  14:07:20,748 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  14:07:20,752 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  14:07:20,767 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  14:07:20,774 | james.mailspooler | Queue=MailQueue:spool
+INFO  14:07:20,797 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  14:07:20,797 | james.mailspooler | Queue=MailQueue:spool
+INFO  14:07:43,476 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:07:43,594 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:07:43,595 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:07:43,595 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:07:43,613 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  14:07:43,718 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:35:02,627 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:35:02,695 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:35:02,696 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:35:02,697 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:35:02,710 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  14:35:02,772 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:36:18,287 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:36:18,366 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:36:18,366 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:36:18,366 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:36:18,380 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  14:36:18,430 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:38:48,613 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:38:48,671 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:38:48,671 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:38:48,672 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:38:48,683 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  14:38:48,747 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:39:14,267 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:39:14,297 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:39:14,314 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:39:14,314 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:39:14,339 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  14:39:14,395 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:40:59,791 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:40:59,804 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:40:59,804 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:40:59,804 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:40:59,824 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  14:40:59,902 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:43:30,189 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:43:30,220 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:43:30,221 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:43:30,221 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:43:30,241 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  14:43:30,343 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:48:10,177 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:48:10,196 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:48:10,196 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:48:10,196 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:48:10,213 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  14:48:10,289 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:49:41,025 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:49:41,038 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:49:41,038 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:49:41,039 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:49:41,051 | james.mailetcontext | GLXUnsubscribe: the email aalvarez929292@unal.edu.co already exists
+INFO  14:49:41,145 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  14:50:32,386 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  14:50:32,403 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  14:50:32,403 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  14:50:32,403 | james.mailetcontext | GLXUnsubscribe: init
+INFO  14:50:32,422 | james.mailetcontext | GLXUnsubscribe: the email andersonav91ss@gmail.com dont exists
+INFO  14:50:32,508 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  16:13:50,821 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  16:13:50,829 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  16:13:50,829 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  16:13:50,830 | james.mailetcontext | GLXUnsubscribe: init
+INFO  16:13:50,838 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  16:13:50,865 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES
+INFO  16:16:17,998 | james.mailetcontext | GLXUnsubscribedEmails: empty emails list
+INFO  16:16:18,022 | james.mailetcontext | GLXUnsubscribe: part.IsMimeType text/plain; charset=windows-1252; format=flowed
+INFO  16:16:18,022 | james.mailetcontext | GLXUnsubscribe: getFooterText()
+INFO  16:16:18,022 | james.mailetcontext | GLXUnsubscribe: init
+INFO  16:16:18,037 | james.mailetcontext | GLXUnsubscribe: the email andersonav91@gmail.com already exists
+INFO  16:16:18,065 | james.mailetcontext | GLXAmazonSESRelay: Attempting to send an email through Amazon SES

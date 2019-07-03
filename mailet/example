@@ -1,0 +1,105 @@
+<!-- GLX -->
+<mailet match="org.glx.matchers.GLXUnsubscribedEmails" class="Null">
+</mailet>
+
+<!-- GLX -->
+<mailet match="All" class="org.glx.mailets.GLXUnsubscribe">
+</mailet>
+
+<!-- GLX -->
+<mailet match="SenderIs=social@glx.info" class="org.glx.mailets.GLXGatewayDispatcher">
+<gateways>1,2,3</gateways>
+<max_emails_per_day_gateway_1>5000</max_emails_per_day_gateway_1>
+<max_emails_per_day_gateway_2>5000</max_emails_per_day_gateway_2>
+<max_emails_per_day_gateway_3>5000</max_emails_per_day_gateway_3>
+</mailet>
+
+<!-- GLX -->
+<mailet match="SenderIs=admin@glx.info" class="org.glx.mailets.GLXGatewayDispatcher">
+<gateways>1,2,3</gateways>
+<max_emails_per_day_gateway_1>5000</max_emails_per_day_gateway_1>
+<max_emails_per_day_gateway_2>5000</max_emails_per_day_gateway_2>
+<max_emails_per_day_gateway_3>5000</max_emails_per_day_gateway_3>
+</mailet>
+
+<!-- GLX -->
+<mailet match="SenderIs=marketing@glx.info" class="org.glx.mailets.GLXGatewayDispatcher">
+<gateways>4,5,6,7</gateways>
+<max_emails_per_day_gateway_5>5000</max_emails_per_day_gateway_5>
+<max_emails_per_day_gateway_4>5000</max_emails_per_day_gateway_4>
+<max_emails_per_day_gateway_6>5000</max_emails_per_day_gateway_6>
+<max_emails_per_day_gateway_7>5000</max_emails_per_day_gateway_7>
+</mailet>
+
+<!-- GLX -->
+<mailet match="HasMailAttributeWithValue=currentGateway,1" class="org.glx.mailets.GLXSendgridRelay">
+<sendgrid_api_key>
+ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,-_*+/&%$#abcdefghijklmnopqrstuv
+</sendgrid_api_key>
+<sendgrid_email_from>postmaster1@glx.org</sendgrid_email_from>
+<gateway_id>1</gateway_id>
+</mailet>
+
+<!-- GLX -->
+<mailet match="HasMailAttributeWithValue=currentGateway,2" class="org.glx.mailets.GLXSendgridRelay">
+<sendgrid_api_key>
+ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,-_*+/&%$#abcdefghijklmnopqrstuv
+</sendgrid_api_key>
+<sendgrid_email_from>postmaster2@glx.org</sendgrid_email_from>
+<gateway_id>2</gateway_id>
+</mailet>
+
+<!-- GLX -->
+<mailet  match="HasMailAttributeWithValue=currentGateway,3" class="org.glx.mailets.GLXAmazonSESRelay">
+<amazon_ses_email_from>postmaster3@glx.com</amazon_ses_email_from>
+<amazon_access_key>ABCDEFGHIJKLMNOPQRST</amazon_access_key>
+<amazon_secret_key>ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*-$+</amazon_secret_key>
+<amazon_region>us-east-1</amazon_region>
+<gateway_id>3</gateway_id>
+</mailet>
+
+<!-- GLX -->
+<mailet match="HasMailAttributeWithValue=currentGateway,4" class="org.glx.mailets.GLXSendgridRelay">
+<sendgrid_api_key>
+ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,-_*+/&%$#abcdefghijklmnopqrstuv
+</sendgrid_api_key>
+<sendgrid_email_from>postmaster1@glx.org</sendgrid_email_from>
+<gateway_id>4</gateway_id>
+</mailet>
+
+<!-- GLX -->
+<mailet  match="HasMailAttributeWithValue=currentGateway,5" class="org.glx.mailets.GLXAmazonSESRelay">
+<amazon_ses_email_from>postmaster3@glx.com</amazon_ses_email_from>
+<amazon_access_key>ABCDEFGHIJKLMNOPQRST</amazon_access_key>
+<amazon_secret_key>ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*-$+</amazon_secret_key>
+<amazon_region>us-east-1</amazon_region>
+<gateway_id>5</gateway_id>
+</mailet>
+
+<!-- GLX -->
+<mailet  match="HasMailAttributeWithValue=currentGateway,6" class="org.glx.mailets.GLXGmailRelay">
+<gmail_email_from>user@gmail.com</gmail_email_from>
+<gmail_email_stmp>smtp.gmail.com</gmail_email_stmp>
+<gmail_email_port>587</gmail_email_port>
+<gmail_email_password>ABCDEEF</gmail_email_password>
+<gateway_id>6</gateway_id>
+</mailet>
+
+
+<!-- GLX -->
+<mailet  match="HasMailAttributeWithValue=currentGateway,7" class="org.glx.mailets.GLXMailchimpRelay">
+<mailchimp_email_from>demo@glx.co</mailchimp_email_from>
+<mailchimp_api_key>abcdefghijklmnopqrstuvwxyz123456-usXX</mailchimp_api_key>
+<mailchimp_data_center>usXX</mailchimp_data_center>
+<mailchimp_company>GLX</mailchimp_company>
+<mailchimp_address1>ABC 1234</mailchimp_address1>
+<mailchimp_city>New York</mailchimp_city>
+<mailchimp_state>NY</mailchimp_state>
+<mailchimp_country>EEUU</mailchimp_country>
+<mailchimp_zip>100001</mailchimp_zip>
+<mailchimp_permission_reminder>Enable Permission?</mailchimp_permission_reminder>
+<mailchimp_from_name>User</mailchimp_from_name>
+<mailchimp_language>en</mailchimp_language>
+<mailchimp_campaign_type>regular</mailchimp_campaign_type>
+<gateway_id>7</gateway_id>
+</mailet>

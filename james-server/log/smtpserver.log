@@ -1,0 +1,56 @@
+INFO  14:07:20,907 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  14:07:20,908 | james.smtpserver | SMTP Service is running on: anderson
+INFO  14:07:20,908 | james.smtpserver | SMTP Service handler hello name is: anderson
+INFO  14:07:20,908 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  14:07:20,908 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  14:07:20,909 | james.smtpserver | This SMTP server requires authentication.
+INFO  14:07:20,909 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  14:07:21,480 | james.smtpserver | Init SMTP Service done
+INFO  14:07:42,473 | james.smtpserver | Id='-895285090' User='' Connection established from 127.0.0.1
+INFO  14:07:43,314 | james.smtpserver | Id='-895285090' User='' Successfully spooled mail Mail1529521663023-d2e0cb09-3550-4192-b4fa-56e0175f1ea1 from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  14:07:43,773 | james.smtpserver | Id='-895285090' User='' Connection closed for 127.0.0.1
+INFO  14:07:43,773 | james.smtpserver | Id='-895285090' User='' Connection closed for 127.0.0.1
+INFO  14:35:02,123 | james.smtpserver | Id='-1949998' User='' Connection established from 127.0.0.1
+INFO  14:35:02,552 | james.smtpserver | Id='-1949998' User='' Successfully spooled mail Mail1529523302485-1e372f32-3c8c-4c9d-9056-0df51ded8819 from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  14:35:02,600 | james.smtpserver | Id='-1949998' User='' Connection closed for 127.0.0.1
+INFO  14:35:02,635 | james.smtpserver | Id='-1949998' User='' Connection closed for 127.0.0.1
+INFO  14:36:17,848 | james.smtpserver | Id='2089376873' User='' Connection established from 127.0.0.1
+INFO  14:36:18,301 | james.smtpserver | Id='2089376873' User='' Successfully spooled mail Mail1529523378246-1e44d511-6b09-494a-992d-010c2089c4a3 from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  14:36:18,340 | james.smtpserver | Id='2089376873' User='' Connection closed for 127.0.0.1
+INFO  14:36:18,358 | james.smtpserver | Id='2089376873' User='' Connection closed for 127.0.0.1
+INFO  14:38:48,143 | james.smtpserver | Id='531608058' User='' Connection established from 127.0.0.1
+INFO  14:38:48,570 | james.smtpserver | Id='531608058' User='' Successfully spooled mail Mail1529523528555-759412c4-aab1-43f7-9416-db433091b9df from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  14:38:48,663 | james.smtpserver | Id='531608058' User='' Connection closed for 127.0.0.1
+INFO  14:38:48,683 | james.smtpserver | Id='531608058' User='' Connection closed for 127.0.0.1
+INFO  14:39:14,034 | james.smtpserver | Id='-1605866515' User='' Connection established from 127.0.0.1
+INFO  14:39:14,256 | james.smtpserver | Id='-1605866515' User='' Successfully spooled mail Mail1529523554208-477dc319-2021-46ec-bbff-6a0dd89e37df from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  14:39:14,325 | james.smtpserver | Id='-1605866515' User='' Connection closed for 127.0.0.1
+INFO  14:39:14,328 | james.smtpserver | Id='-1605866515' User='' Connection closed for 127.0.0.1
+INFO  14:40:59,329 | james.smtpserver | Id='-1986055407' User='' Connection established from 127.0.0.1
+INFO  14:40:59,768 | james.smtpserver | Id='-1986055407' User='' Successfully spooled mail Mail1529523659729-243880f0-cc44-4ae2-9abd-443d959abb24 from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  14:40:59,853 | james.smtpserver | Id='-1986055407' User='' Connection closed for 127.0.0.1
+INFO  14:40:59,858 | james.smtpserver | Id='-1986055407' User='' Connection closed for 127.0.0.1
+INFO  14:43:29,639 | james.smtpserver | Id='-2052190844' User='' Connection established from 127.0.0.1
+INFO  14:43:30,186 | james.smtpserver | Id='-2052190844' User='' Successfully spooled mail Mail1529523810127-3b372e49-da7e-4dd7-bb44-788e9259d2c8 from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  14:43:30,424 | james.smtpserver | Id='-2052190844' User='' Connection closed for 127.0.0.1
+INFO  14:43:30,424 | james.smtpserver | Id='-2052190844' User='' Connection closed for 127.0.0.1
+INFO  14:48:09,591 | james.smtpserver | Id='-114726444' User='' Connection established from 127.0.0.1
+INFO  14:48:10,198 | james.smtpserver | Id='-114726444' User='' Successfully spooled mail Mail1529524090080-2606cb0b-bbb2-4b89-b563-841b186c1672 from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  14:48:10,297 | james.smtpserver | Id='-114726444' User='' Connection closed for 127.0.0.1
+INFO  14:48:10,333 | james.smtpserver | Id='-114726444' User='' Connection closed for 127.0.0.1
+INFO  14:49:40,812 | james.smtpserver | Id='2071799782' User='' Connection established from 127.0.0.1
+INFO  14:49:41,029 | james.smtpserver | Id='2071799782' User='' Successfully spooled mail Mail1529524181001-f2a5bd3e-bbff-4c63-a186-d31293b68844 from admin@glx.info on localhost/127.0.0.1 for [aalvarez929292@unal.edu.co]
+INFO  14:49:41,096 | james.smtpserver | Id='2071799782' User='' Connection closed for 127.0.0.1
+INFO  14:49:41,101 | james.smtpserver | Id='2071799782' User='' Connection closed for 127.0.0.1
+INFO  14:50:32,082 | james.smtpserver | Id='-1388930762' User='' Connection established from 127.0.0.1
+INFO  14:50:32,365 | james.smtpserver | Id='-1388930762' User='' Successfully spooled mail Mail1529524232327-276a8cd6-f5a4-4c22-b8ce-f12242bd1c9b from admin@glx.info on localhost/127.0.0.1 for [andersonav91ss@gmail.com]
+INFO  14:50:32,460 | james.smtpserver | Id='-1388930762' User='' Connection closed for 127.0.0.1
+INFO  14:50:32,464 | james.smtpserver | Id='-1388930762' User='' Connection closed for 127.0.0.1
+INFO  16:13:50,278 | james.smtpserver | Id='724471382' User='' Connection established from 127.0.0.1
+INFO  16:13:50,813 | james.smtpserver | Id='724471382' User='' Successfully spooled mail Mail1529529230741-b0a0c950-b19a-4a60-80df-fb6d08140e1e from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  16:13:51,401 | james.smtpserver | Id='724471382' User='' Connection closed for 127.0.0.1
+INFO  16:13:51,403 | james.smtpserver | Id='724471382' User='' Connection closed for 127.0.0.1
+INFO  16:16:17,762 | james.smtpserver | Id='461493943' User='' Connection established from 127.0.0.1
+INFO  16:16:17,974 | james.smtpserver | Id='461493943' User='' Successfully spooled mail Mail1529529377941-b62c4249-5ff0-42ee-b3b4-b76785bc6b6b from admin@glx.info on localhost/127.0.0.1 for [andersonav91@gmail.com]
+INFO  16:16:18,095 | james.smtpserver | Id='461493943' User='' Connection closed for 127.0.0.1
+INFO  16:16:18,098 | james.smtpserver | Id='461493943' User='' Connection closed for 127.0.0.1

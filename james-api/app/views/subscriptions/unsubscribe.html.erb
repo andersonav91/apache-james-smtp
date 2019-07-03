@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mailing list</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <style>
+      body{
+        background: #000000;
+      }
+      .bg-dark {
+          background-color: #000000 !important;
+      }
+      .navbar-brand img{
+        width: 80%;
+        height: 80%;
+      }
+      h1{
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 50px!important;
+        line-height: 38px!important;
+        font-family: Arial,sans-serif!important;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="<%= url_for(action: 'logo', controller: 'subscriptions', only_path: false) %>">
+      </a>
+      </nav>
+      <h1>
+        <%= @message %>
+      </h1>
+    </div>
+  </body>
+</html>

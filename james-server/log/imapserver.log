@@ -1,0 +1,16 @@
+INFO  14:07:22,223 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  14:07:22,223 | james.imapserver | IMAP Service is running on: anderson
+INFO  14:07:22,224 | james.imapserver | IMAP Service handler hello name is: anderson
+INFO  14:07:22,224 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  14:07:22,224 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  14:07:22,246 | james.imapserver | Init IMAP Service done
+INFO  14:14:04,507 | james.imapserver | ID=1656725886 Connection established from 127.0.0.1
+INFO  14:14:26,126 | james.imapserver | ID=1207327644 Connection established from 127.0.0.1
+INFO  14:35:02,423 | james.imapserver | ID=685490384 Connection established from 127.0.0.1
+INFO  15:18:00,301 | james.imapserver | ID=685490384 Logout client localhost (127.0.0.1) because it idled for too long...
+INFO  15:18:00,308 | james.imapserver | ID=685490384 Connection closed for 127.0.0.1
+INFO  16:13:49,922 | james.imapserver | ID=-500277678 Connection established from 127.0.0.1
+INFO  16:43:50,097 | james.imapserver | ID=-500277678 Logout client localhost (127.0.0.1) because it idled for too long...
+INFO  16:43:50,100 | james.imapserver | ID=-500277678 Connection closed for 127.0.0.1
+INFO  22:01:54,680 | james.imapserver | ID=1207327644 Connection closed for 127.0.0.1
+INFO  22:01:54,685 | james.imapserver | ID=-2010508325 Connection established from 127.0.0.1

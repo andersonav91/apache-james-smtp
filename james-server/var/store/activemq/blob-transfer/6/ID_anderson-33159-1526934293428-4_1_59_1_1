@@ -1,0 +1,18 @@
+Received: from localhost (EHLO [127.0.0.1]) ([127.0.0.1])
+          by anderson (JAMES SMTP Server ) with ESMTP ID -2143766071
+          for <user02@james.local>;
+          Mon, 21 May 2018 15:29:45 -0500 (COT)
+To: user02@james.local
+From: user01 <user01@james.local>
+Subject: ABC
+Message-ID: <90c8369b-217f-d206-9e7c-a7c2045d28aa@james.local>
+Date: Mon, 21 May 2018 15:29:43 -0500
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
+ Thunderbird/52.7.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Language: en-US
+
+ANC
+

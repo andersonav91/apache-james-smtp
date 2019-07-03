@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ses_id: MyString
+  glx_mail_id: 1
+
+two:
+  ses_id: MyString
+  glx_mail_id: 1

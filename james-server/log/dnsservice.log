@@ -1,0 +1,5 @@
+INFO  14:07:11,343 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  14:07:11,353 | james.dnsservice | Adding autodiscovered server 127.0.1.1
+INFO  14:07:11,354 | james.dnsservice | Adding autodiscovered search path une.net.co.
+INFO  14:07:11,355 | james.dnsservice | DNS Server is: 127.0.1.1
+INFO  14:07:11,370 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults

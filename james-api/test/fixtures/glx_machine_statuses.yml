@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  initial_status_id: 1
+  action: MyString
+  final_status_id: 
+
+two:
+  initial_status_id: 1
+  action: MyString
+  final_status_id: 

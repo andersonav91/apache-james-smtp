@@ -1,0 +1,50 @@
+INFO  14:07:11,092 | james.mailrepositorystore | JamesMailStore init...
+INFO  14:07:11,116 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories with key file
+INFO  14:07:11,117 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories with key db
+INFO  14:07:11,117 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories with key dbfile
+INFO  14:07:11,119 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories with key mbox
+INFO  14:07:18,625 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:18,633 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/error
+INFO  14:07:18,635 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:18,636 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/error
+INFO  14:07:18,637 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:18,638 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/error
+INFO  14:07:18,639 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:18,640 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/error
+INFO  14:07:18,640 | james.mailrepositorystore | added repository: file://var/mail/error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  14:07:19,857 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:19,857 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/over-quota-error
+INFO  14:07:19,859 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:19,860 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/over-quota-error
+INFO  14:07:19,865 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:19,867 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/over-quota-error
+INFO  14:07:19,868 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:19,868 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/over-quota-error
+INFO  14:07:19,868 | james.mailrepositorystore | added repository: file://var/mail/over-quota-error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  14:07:20,005 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:20,006 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/spam
+INFO  14:07:20,006 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:20,018 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/spam
+INFO  14:07:20,018 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:20,019 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/spam
+INFO  14:07:20,019 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:20,019 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/spam
+INFO  14:07:20,019 | james.mailrepositorystore | added repository: file://var/mail/spam/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  14:07:20,359 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:20,362 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/address-error
+INFO  14:07:20,362 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:20,363 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/address-error
+INFO  14:07:20,364 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:20,364 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/address-error
+INFO  14:07:20,365 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:20,365 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/address-error
+INFO  14:07:20,366 | james.mailrepositorystore | added repository: file://var/mail/address-error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  14:07:20,442 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:20,450 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/relay-denied
+INFO  14:07:20,450 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:20,450 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/relay-denied
+INFO  14:07:20,450 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  14:07:20,451 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ../var/mail/relay-denied
+INFO  14:07:20,451 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  14:07:20,451 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ../var/mail/relay-denied
+INFO  14:07:20,451 | james.mailrepositorystore | added repository: file://var/mail/relay-denied/->org.apache.james.mailrepository.file.FileMailRepository

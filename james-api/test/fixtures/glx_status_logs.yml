@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mail_id: MyString
+  status_from_id: MyString
+  action: MyString
+  status_to_id: 
+
+two:
+  mail_id: MyString
+  status_from_id: MyString
+  action: MyString
+  status_to_id: 
